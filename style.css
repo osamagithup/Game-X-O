@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.game {
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+    padding-top: 220px;
+    position: relative;
+}
+.title {
+    background-color: #f25;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span {
+    color: #fa0;
+}
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: #f25;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+.square:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+.reset {
+    position: absolute;
+    margin: calc(100% + 10px) auto;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 35px 13px;
+    background-color: #f25;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
